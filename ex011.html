@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naturalidade</title>
     <style>
-        
+        body {
+            font: normal 2em Arial;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <p>Informe o seu país de nascimento:</p>
     <input type="text" name="pais" id="pais">
-    <input type="button" value="Verificar" onclick="verificar()">
+    <input type="button" value="Verificar" onclick="verificar()" autocomplete="country-name">
     <div id="res">
 
     </div>
