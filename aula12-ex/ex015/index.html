@@ -13,21 +13,20 @@
     <main>
         <p>
             <label for="ano-nas">Ano de Nascimento: </label>
-            <input type="number" name="ano-nas" id="ano-nas">
+            <input type="number" name="ano-nas" id="ano-nas" min="1900">
         </p>
         <p>
             <label for="">Sexo: </label>
-            <input type="radio" name="sexo" id="sexo-m">
+            <input type="radio" name="sexo" id="sexo-m" checked>
             <label for="sexo-m">Masculino</label>
             <input type="radio" name="sexo" id="sexo-f">
             <label for="sexo-f">Feminino</label>
         </p>
         <p>
-            <input type="button" value="Verificar">
+            <input type="button" value="Verificar" onclick="verificar()">
         </p>
-        <p>Preencha os dados acima para ver o resultado!</p>
         <div id="msg">
-            Carregando...
+            Preencha os dados acima para ver o resultado!
         </div>
         <div id="foto">
             <img id="imagem" src="" alt="">
@@ -37,8 +36,6 @@
         <p>CursoemVídeo</p>
     </footer>
 
-    <style>
-
-    </style>
+    <script src="script.js"></script>
 </body>
 </html>
