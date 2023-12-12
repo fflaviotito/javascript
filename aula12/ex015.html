@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: lightskyblue;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+
+        main {
+            background-color: white;
+            width: 500px;
+            margin: auto;
+            padding-top: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+        }
+
+        p {
+            padding: 10px 0px 10px 15px;
+        }
+
+        footer {
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <main>
+        <p>
+            <label for="ano-nas">Ano de Nascimento: </label>
+            <input type="number" name="ano-nas" id="ano-nas">
+        </p>
+        <p>
+            <label for="">Sexo: </label>
+            <input type="radio" name="sexo" id="sexo-m">
+            <label for="sexo-m">Masculino</label>
+            <input type="radio" name="sexo" id="sexo-f">
+            <label for="sexo-f">Feminino</label>
+        </p>
+        <p>
+            <input type="button" value="Verificar">
+        </p>
+        <p>Preencha os dados acima para ver o resultado!</p>
+        <div id="res">
+
+        </div>
+    </main>
+    <footer>
+        <p>CursoemVídeo</p>
+    </footer>
+
+    <style>
+
+    </style>
+</body>
+</html>
