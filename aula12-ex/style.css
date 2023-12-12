@@ -20,6 +20,20 @@ main {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
+div#msg {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+img#imagem {
+    display: block;
+    background-color: black;
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    border-radius: 50%;
+}
+
 footer {
     color: white;
     text-align: center;
